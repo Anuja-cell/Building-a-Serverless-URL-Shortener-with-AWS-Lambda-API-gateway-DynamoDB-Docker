@@ -1,0 +1,7 @@
+curl -X POST "https://your-api-gateway-url/shorten" \
+     -H "Content-Type: application/json" \
+     -d '{"long_url": "https://google.com"}'
+
+---------------------------------------------------------------------------------
+
+{"short_url": "https://your-api-gateway-url/<code>"}
